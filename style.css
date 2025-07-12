@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(214, 181, 139);
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  border-radius: 5   6px;
+  padding: 10px 10px;
+}
+
+.nav-items {
+  padding: 10px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  font-size: 22px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    width: 250px;
+    background-color: rgb(233, 193, 108);
+    margin: 8px;
+    padding: 10px;
+}
+
+.res-logo {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.res-logo-image{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.search {
+    padding: 20px 0%;
+    font-size: 20px;
+}
