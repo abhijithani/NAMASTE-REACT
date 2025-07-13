@@ -26,6 +26,12 @@
   margin: 10px;
 }
 
+.filter_btn {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
 .res-container {
     display: flex;
     flex-wrap: wrap;
