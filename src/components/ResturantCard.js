@@ -1,3 +1,5 @@
+import { IMG_CDN_URL } from "../utlis/constants";
+
 const ResturantCard = ({ resData }) => {
   const info = resData?.card?.card?.info;
 
@@ -12,12 +14,12 @@ const ResturantCard = ({ resData }) => {
     cloudinaryImageId
   } = info;
 
-  const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+  
 
   return (
     <div className="res-card">
       <div className="res-logo">
-        <img
+        <img 
           className="res-logo-image"
           alt="resimage"
 
@@ -28,7 +30,7 @@ const ResturantCard = ({ resData }) => {
       <h3>{cuisines?.join(", ")}</h3>
       <h4> {avgRating} Stars</h4>
       <h4> {sla?.slaString}</h4>
-      <h4> {costForTwo}</h4>
+      <h4> {costForTwo/100}FOR TW0</h4>
     </div>
   );
 };

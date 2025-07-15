@@ -19,8 +19,8 @@ const Body = () => {
     const json = await data.json();
 
     console.log(json);
-    setListOfResturants(json.data.cards[0].groupedCard.cardGroupMap.RESTAURANT.cards);
-    setFilteresListOfRestaurant(json.data.cards[0].groupedCard.cardGroupMap.RESTAURANT.cards)
+    setListOfResturants(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards);
+    setFilteresListOfRestaurant(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards)
   };
 
   //conditional rendering
