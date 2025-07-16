@@ -56,3 +56,12 @@ import const component
 (normal utility functions)
 -useState()-superpowerful state variable in react
 -useEffect()
+
+ //if no dependency array => useEffect is called on every render 
+    //if dependency array is empty => useEffect is called on intial render (just once)
+    // if dependency array is (logbuttoon ) => called everytime logbutton is updated
+
+
+two types of routing
+ -client side routing
+ -server side routing

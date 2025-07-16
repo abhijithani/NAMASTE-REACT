@@ -14,8 +14,6 @@ const ResturantCard = ({ resData }) => {
     cloudinaryImageId
   } = info;
 
-  
-
   return (
     <div className="res-card">
       <div className="res-logo">

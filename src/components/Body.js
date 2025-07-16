@@ -29,7 +29,7 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
+      <div className="filter"> 
         <div className="search">
           <input type="search" 
             className="search_box"
