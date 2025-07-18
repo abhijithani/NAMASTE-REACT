@@ -65,3 +65,5 @@ import const component
 two types of routing
  -client side routing
  -server side routing
+
+-added  different routes for different restaurants
