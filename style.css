@@ -8,7 +8,7 @@
   height: 100px;
   width: 100px;
   object-fit: contain;
-  border-radius: 5   6px;
+  border-radius: 5 6px;
   padding: 10px 10px;
 }
 
@@ -26,46 +26,59 @@
   margin: 10px;
 }
 
+.header-links {
+  text-decoration: none;
+  color: black;
+}
 
 .res-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-container :hover {
+  background-color: rgb(233, 193, 108);
+  border-radius: 10px;
 }
 
 .res-card {
-    width: 250px;
-    background-color: rgb(233, 193, 108);
-    margin: 8px;
-    padding: 10px;
-    border-radius: 10px;
+  width: 250px;
+  background-color: rgb(233, 193, 108);
+  margin: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.res-links {
+  text-decoration: none;
+  color: black;
 }
 
 .res-logo {
-    padding: 10px;
-    border-radius: 5px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.res-logo-image{
-    width: 100%;
-    border-radius: 4px;
+.res-logo-image {
+  width: 100%;
+  border-radius: 4px;
 }
 
 .search {
-    padding: 20px;
-    
+  padding: 20px;
 }
 
 .shimmer_container {
-  display:flex ;
+  display: flex;
   flex-wrap: wrap;
 }
 
 .shimmer_card {
- width: 250px;
- height: 450px;
- margin: 20px;
- background-color: #c0c0c0;
-
+  width: 250px;
+  height: 450px;
+  margin: 20px;
+  background-color: #c0c0c0;
 }
 
 .log_button {
@@ -83,4 +96,63 @@
   font-size: 10;
   cursor: pointer;
   height: 25px;
+}
+
+.contact_page {
+  background-color: rgb(230, 217, 157);
+  height: 900px;
+  padding-left: 20px;
+  color: rgb(168, 66, 66);
+}
+
+.aboutus_page {
+  background-color: rgb(255, 217, 168);
+  height: 900px;
+  padding-left: 20px;
+  color: rgb(168, 66, 66);
+}
+
+.resmenu-container {
+  margin: 0% 400px;
+  position: relative;
+}
+
+.resmenu-header {
+  border-radius: 6px;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dishes {
+  height: 100px;
+  background-color: rgb(241, 236, 227);
+  margin: 10px 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-radius: 5px;
+}
+
+.menu_pic {
+  object-fit: cover;
+  height: 80px;
+
+  margin: 10px 30px;
+}
+
+.resmenu_img {
+  height: 80px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.shimmer_card2 {
+  height: 200px;
+  width: 1000px;
+  background-color: #c0c0c0;
+  margin: 20px 400px;
+  border-radius: 30px;
 }

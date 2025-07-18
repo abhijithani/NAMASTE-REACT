@@ -22,9 +22,9 @@ const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li><Link to="./">Home</Link></li>
-          <li> <Link to ="./About">About us </Link></li>
-          <li><Link to = "./Contact">Contact us</Link> </li>
+          <li><Link to="/" className="header-links">Home</Link></li>
+          <li> <Link to = "/About" className="header-links">About us </Link></li>
+          <li><Link to = "/Contact" className="header-links" >Contact us</Link> </li>
           <li>Cart</li>
           <button className="log_button"
           onClick={() => {
