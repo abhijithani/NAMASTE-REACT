@@ -15,7 +15,7 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch("https://www.swiggy.com/dapi/restaurants/search/v3?lat=9.9406&lng=76.2653&str=kochi&trackingId=undefined&submitAction=ENTER&queryUniqueId=1cc348be-b2a2-27ae-bb1f-26cc7bb59e34&selectedPLTab=RESTAURANT "
+    const data = await fetch("https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/search/v3?lat=9.9406&lng=76.2653&str=kochi&trackingId=undefined&submitAction=ENTER&queryUniqueId=1cc348be-b2a2-27ae-bb1f-26cc7bb59e34&selectedPLTab=RESTAURANT "
     );
     const json = await data.json();
 
