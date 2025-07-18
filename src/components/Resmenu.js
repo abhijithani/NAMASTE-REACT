@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Shimmer from "./shimmer";
 import { useParams } from "react-router-dom";
 import { RESMENU_URL } from "../utlis/constants";
 import { RESMENU_IMG } from "../utlis/constants";
