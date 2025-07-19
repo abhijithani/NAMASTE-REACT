@@ -156,3 +156,8 @@
   margin: 20px 400px;
   border-radius: 30px;
 }
+
+.about_creator {
+  padding:10px;
+  border: 1px solid black;
+}
