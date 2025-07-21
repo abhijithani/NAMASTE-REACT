@@ -8,6 +8,7 @@ import Contact from "./components/Contactus";
 import Error from "./components/Error";
 import Resmenu from "./components/Resmenu";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Aboutclass from "./components/About";
 
 const AppLayout = () => {
   return (
@@ -27,7 +28,7 @@ const AppRouter = createBrowserRouter([
       element: <Body />
     }, {
       path: "/About",
-      element: <About />
+      element: <Aboutclass />
     },
     {
       path: "/Contact",

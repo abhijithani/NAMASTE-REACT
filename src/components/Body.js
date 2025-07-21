@@ -2,6 +2,7 @@ import  { useState, useEffect } from "react";
 import ResturantCard from "./ResturantCard";
 import Shimmer from "./Shimmer" ;
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utlis/useOnlineStatus";
 
 const Body = () => {
   //local state variable - super powerfull variable
@@ -23,6 +24,10 @@ const Body = () => {
     setListOfResturants(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards);
     setFilteresListOfRestaurant(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards)
   };
+
+  const useronline = useOnlineStatus();
+
+  if( useronline == false) return <h1>Looks like your not online!!!</h1>
 
   //conditional rendering
 

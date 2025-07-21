@@ -11,7 +11,7 @@ const User = ({ name, location }) => {
             <h3>{location}</h3>
             <h2>count : {Count}</h2>
             <button onClick={() => { Setcount(Count + 1) }}>increase</button>
-            <h2>count : {Count}</h2>
+            
         </div>
 
     )

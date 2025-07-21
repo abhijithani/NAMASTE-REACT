@@ -1,25 +1,12 @@
-import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { RESMENU_URL } from "../utlis/constants";
 import { RESMENU_IMG } from "../utlis/constants";
 import Shimmer2 from "./shimmer2";
-
+import useResmenu from "../utlis/useResmenu";
 const Resmenu = () => {
-  const [resinfo, setresinfo] = useState();
 
   const { resId } = useParams();
 
-  useEffect(() => {
-    fetchMenu();
-  }, [])
-
-  const fetchMenu = async () => {
-    const data = await fetch(RESMENU_URL + resId)
-
-    const json = await data.json();
-    console.log(json);
-    setresinfo(json.data);
-  }
+  const resinfo = useResmenu(resId);
 
   if (resinfo == null) return <Shimmer2 />;
 

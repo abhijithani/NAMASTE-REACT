@@ -68,4 +68,13 @@ two types of routing
 
 -added  different routes for different restaurants
 
-test
+test 
+
+  
+//BUNDLING 
+
+//dynamic bundling
+//chunking 
+//code splitting 
+//lazy loading
+//on demand loading 
