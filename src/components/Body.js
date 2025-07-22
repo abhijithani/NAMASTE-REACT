@@ -29,7 +29,6 @@ const Body = () => {
 
   if( useronline == false) return <h1>Looks like your not online!!!</h1>
 
-  //conditional rendering
 
   return ListOfRestaurants.length == 0 ? (
     <Shimmer />
