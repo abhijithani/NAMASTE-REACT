@@ -22,25 +22,26 @@ const Resmenu = () => {
 
 
   return (
-    <div className="resmenu-container">
-      <div className="resmenu-header">
-        <h1> {name} </h1>
+    <div className="resmenu-container m-15 mx-100">
+      <div className="resmenu-header m-7 bg-amber-200 p-8 rounded-xl">
+        <h1 className="font-semibold"> {name} </h1>
         <h3>{cuisines.join(" ,")} </h3>
         <p>
           <span>{avgRating} STARS</span>
           <span style={{ marginLeft: "20px" }}>RS {costForTwo / 100} for two</span>
         </p>
       </div>
-      <div className="dish-container">
+      <div className="dish-container m-10">
         {itemCards.map((item) => (
-          <div className="dishes"
 
+          <div className="dishes flex  justify-between m-7 bg-amber-200 p-4 items-center rounded-xl "
             key={item.card.info.id}>
+
             {item.card.info.name} -{" RS"} {item.card.info.price / 100}
 
             <div className="menu_pic">
               <img src={RESMENU_IMG + item.card.info.imageId}
-              className="resmenu_img"
+              className="resmenu_img  w-24"
                 alt={"image"}
               />
               

@@ -15,20 +15,21 @@ const Header = () => {
     const useronline = useOnlineStatus();
  
   return (
-    <div className="header">
-      <div className="logo-container">
-        <img className="logo"
+    <div className="flex justify-between bg-orange-100  sm:bg-orange-300" > 
+      <div className="logo-container m-2">
+        <img className="w-24 rounded-2xl"
           src= {LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>Online Status:{useronline ? "🟢" : "🔴"}</li>
-          <li><Link to="/" className="header-links">Home</Link></li>
-          <li> <Link to = "/About" className="header-links">About us </Link></li>
-          <li><Link to = "/Contact" className="header-links" >Contact us</Link> </li>
-          <li><Link to = "/grocery" className="header-links">Grocery</Link></li>
-          <li>Cart</li>
-          <button className="log_button"
+      <div className="nav-items flex items-center">
+        <ul className="flex">
+          <li className="px-2 font-semibold">Online Status:{useronline ? "🟢" : "🔴"}</li>
+          <li className="px-2 font-semibold" ><Link to="/" >Home</Link></li>
+          <li className="px-2 font-semibold"> <Link to = "/About" >About us </Link></li>
+          <li className="px-2 font-semibold"><Link to = "/Contact"  >Contact us</Link> </li>
+          <li className="px-2 font-semibold"><Link to = "/grocery" >Grocery</Link></li>
+          <li className="px-2 font-semibold">Cart</li>
+          
+          <button className="px-2 font-semibold"
           onClick={() => {
             logbutton == "Login" ? setlogbutton("Logout") : setlogbutton("Login");
           }}
