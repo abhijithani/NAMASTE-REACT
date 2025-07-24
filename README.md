@@ -78,3 +78,7 @@ test
 //code splitting 
 //lazy loading
 //on demand loading 
+
+
+//  HIGHR ORDER COMPONENT
+//  input - restaurantcard => restaurantcardPromoted

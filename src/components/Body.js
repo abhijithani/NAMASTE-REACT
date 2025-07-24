@@ -1,5 +1,5 @@
 import  { useState, useEffect } from "react";
-import ResturantCard from "./ResturantCard";
+import ResturantCard ,{WithPromotedLabel} from "./ResturantCard";
 import Shimmer from "./Shimmer" ;
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utlis/useOnlineStatus";
@@ -8,6 +8,9 @@ const Body = () => {
   //local state variable - super powerfull variable
   const [ListOfRestaurants, setListOfResturants] = useState([]);
   const [FilteredListOfRestaurants , setFilteresListOfRestaurant] = useState([])
+
+  console.log(ListOfRestaurants);
+  
 
   const [searchText, setsearchText] = useState("");
 
@@ -24,6 +27,8 @@ const Body = () => {
     setListOfResturants(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards);
     setFilteresListOfRestaurant(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards)
   };
+
+  const RestaurantWithLabel  = WithPromotedLabel(ResturantCard);
 
   const useronline = useOnlineStatus();
 
@@ -78,10 +83,19 @@ const Body = () => {
           className="res-links"
           
           >
-           <ResturantCard
-             key={restaurant?.card?.card?.info?.id}
+            
+          {
+            restaurant?.card?.card?.info?.promoted ? (
+              <RestaurantWithLabel 
+            resData={restaurant}
+              />
+            ) : (
+              <ResturantCard
             resData={restaurant}
           />
+            ) 
+          }
+           
           </Link>
          
         ))}
