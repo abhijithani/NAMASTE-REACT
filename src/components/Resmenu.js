@@ -2,6 +2,9 @@ import { useParams } from "react-router-dom";
 import { RESMENU_IMG } from "../utlis/constants";
 import Shimmer2 from "./shimmer2";
 import useResmenu from "../utlis/useResmenu";
+import MenuCategories from "./MenuCategories";
+
+
 const Resmenu = () => {
 
   const { resId } = useParams();
@@ -18,7 +21,15 @@ const Resmenu = () => {
     imageId
   } = resinfo?.cards[2]?.card?.card?.info;
 
-  const { itemCards } = resinfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card || [];
+  const { itemCards } = resinfo?.cards[5]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card || [];
+
+  const Categories = resinfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    (c) => c?.card?.card?.["@type"] == "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+  )
+console.log(Categories);
+// console.log(itemCards);
+console.log(resinfo);
+
 
 
   return (
@@ -31,23 +42,13 @@ const Resmenu = () => {
           <span style={{ marginLeft: "20px" }}>RS {costForTwo / 100} for two</span>
         </p>
       </div>
+
+
       <div className="dish-container m-10">
-        {itemCards.map((item) => (
-
-          <div className="dishes flex  justify-between m-7 bg-amber-200 p-4 items-center rounded-xl "
-            key={item.card.info.id}>
-
-            {item.card.info.name} -{" RS"} {item.card.info.price / 100}
-
-            <div className="menu_pic">
-              <img src={RESMENU_IMG + item.card.info.imageId}
-              className="resmenu_img  w-24"
-                alt={"image"}
-              />
-              
-            </div>
-          </div>
-        ))}
+        {Categories.map((category) =>(
+        <MenuCategories  key={category?.card?.card?.categoryId || []}    data={category?.card?.card} />
+       ))}
+    
       </div>
     </div>
 

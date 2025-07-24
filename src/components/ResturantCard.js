@@ -15,7 +15,7 @@ const ResturantCard = ({ resData }) => {
   } = info;
 
   return (
-    <div className="res-card m-4 p-3 w-[230px] bg-orange-100 hover:bg-orange-200 rounded-xl" >
+    <div className="res-card m-4 p-3 w-[230px] bg-white  hover:bg-gray-200 border-gray-100 rounded-xl shadow-xl" >
       <div className="res-logo">
         <img 
           className="res-logo-image rounded-2xl"
@@ -33,7 +33,7 @@ const ResturantCard = ({ resData }) => {
   );
 };
 
-//HIGHER ORDER COMPONENT 
+//HIGHER ORDER COMPON
 
 export const WithPromotedLabel = (ResturantCard) => {
    
