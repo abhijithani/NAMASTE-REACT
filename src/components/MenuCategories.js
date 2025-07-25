@@ -1,14 +1,15 @@
-import { useState } from "react";
+// import { useState } from "react";
 import ItemCards from "./ItemCards";
 
-const MenuCategories = ({data}) => {
+const MenuCategories = ({data,showItems, setshowIndex}) => {
 // console.log(data);
 
-const [showItems , setshowItems]  = useState(false)
+// const [showItems , setshowItems]  = useState(false)
 
 const handleClick = () => {
-    setshowItems(!showItems);
-    
+    // setshowItems(!showItems);
+    setshowIndex()
+
 }
 
     return ( 
@@ -23,7 +24,7 @@ const handleClick = () => {
        </div>
          
         </div>
-    ) 
+    )   
 }
 
 export default MenuCategories;

@@ -3,13 +3,15 @@ import { RESMENU_IMG } from "../utlis/constants";
 import Shimmer2 from "./shimmer2";
 import useResmenu from "../utlis/useResmenu";
 import MenuCategories from "./MenuCategories";
-
+import { useState } from "react";
 
 const Resmenu = () => {
 
   const { resId } = useParams();
 
   const resinfo = useResmenu(resId);
+
+  const [showIndex, setshowIndex] = useState(null);
 
   if (resinfo == null) return <Shimmer2 />;
 
@@ -18,10 +20,8 @@ const Resmenu = () => {
     cuisines,
     avgRating,
     costForTwo,
-    imageId
-  } = resinfo?.cards[2]?.card?.card?.info;
+    } = resinfo?.cards[2]?.card?.card?.info;
 
-  const { itemCards } = resinfo?.cards[5]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card || [];
 
   const Categories = resinfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
     (c) => c?.card?.card?.["@type"] == "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
@@ -45,8 +45,13 @@ const Resmenu = () => {
 
 
       <div className="dish-container m-10">
-        {Categories.map((category) =>(
-        <MenuCategories  key={category?.card?.card?.categoryId || []}    data={category?.card?.card} />
+        {Categories.map((category, index) =>(
+        <MenuCategories  
+           key={category?.card?.card?.categoryId} 
+           data={category?.card?.card} 
+           showItems = {index == showIndex ? true : false } 
+           setshowIndexx={() => setshowIndex(index) }
+           />
        ))}
     
       </div>
