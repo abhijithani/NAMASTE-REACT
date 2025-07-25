@@ -26,9 +26,9 @@ const ResturantCard = ({ resData }) => {
       </div>
       <h2 className="font-semibold py-2 text-lg">{name}</h2>
       <h3>{cuisines?.join(", ")}</h3>
-      <h4> {avgRating} Stars</h4>
+      <h4> {avgRating} ⭐</h4>
       <h4> {sla?.slaString}</h4>
-      <h4> {costForTwo/100}FOR TW0</h4>
+      <h4> {costForTwo/100} FOR TW0</h4>
     </div>
   );
 };
