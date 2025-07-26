@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { RESMENU_URL } from "../utlis/constants";
+import { RESMENU_URL } from "./constants";
 
 const useResmenu = (resId) => {
 

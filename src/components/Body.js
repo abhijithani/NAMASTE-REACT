@@ -1,16 +1,17 @@
-import  { useState, useEffect } from "react";
-import ResturantCard ,{WithPromotedLabel} from "./ResturantCard";
-import Shimmer from "./Shimmer" ;
+import { useState, useEffect ,useContext} from "react";
+import ResturantCard, { WithPromotedLabel } from "./ResturantCard";
+import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utlis/useOnlineStatus";
+import Usercontext from "../utlis/Usercontext";
 
 const Body = () => {
   //local state variable - super powerfull variable
   const [ListOfRestaurants, setListOfResturants] = useState([]);
-  const [FilteredListOfRestaurants , setFilteresListOfRestaurant] = useState([])
+  const [FilteredListOfRestaurants, setFilteresListOfRestaurant] = useState([])
 
   console.log(ListOfRestaurants);
-  
+
 
   const [searchText, setsearchText] = useState("");
 
@@ -28,76 +29,88 @@ const Body = () => {
     setFilteresListOfRestaurant(json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards)
   };
 
-  const RestaurantWithLabel  = WithPromotedLabel(ResturantCard);
+  const RestaurantWithLabel = WithPromotedLabel(ResturantCard);
 
   const useronline = useOnlineStatus();
 
-  if( useronline == false) return <h1>Looks like your not online!!!</h1>
+  if (useronline == false) return <h1>Looks like your not online!!!</h1>
 
+  const {setuserName , loggedInContext} = useContext(Usercontext);
 
   return ListOfRestaurants.length == 0 ? (
     <Shimmer />
   ) : (
     <div className="body bg-gray-100">
-      <div className="filter flex m-4 items-center"> 
+      <div className="filter flex m-4 items-center">
         <div className="search  ">
-          <input type="search" 
+          <input type="search"
             className="search_box border border-solid border-black m-2 rounded-md"
             value={searchText}
             onChange={(e) => {
-             setsearchText(e.target.value);
+              setsearchText(e.target.value);
             }}
           />
           <button
-          className="border border-solid border-black rounded-md bg-white px-3"
-            onClick={() =>{
+            className="border border-solid border-black rounded-md bg-white px-3"
+            onClick={() => {
               console.log(searchText);
-              
-              const filteredList = ListOfRestaurants.filter((res) => 
+
+              const filteredList = ListOfRestaurants.filter((res) =>
                 res?.card?.card?.info?.name.toLowerCase().includes(searchText.toLowerCase())
               )
 
               setFilteresListOfRestaurant(filteredList);
             }
-          }
+            }
 
           >search</button>
         </div>
-        <button className="filter_btn border border-solid border-black rounded-md bg-white m-3 px-2"
-          onClick={() => {
-            const filteredList = ListOfRestaurants.filter(
-              (res) => res?.card?.card?.info?.avgRating > 4
-            );
-           setFilteresListOfRestaurant(filteredList)
 
-          }}
-        >Top Rated Resturants</button>
+        <div>
+          <button className="filter_btn border border-solid border-black rounded-md bg-white m-3 px-2"
+            onClick={() => {
+              const filteredList = ListOfRestaurants.filter(
+                (res) => res?.card?.card?.info?.avgRating > 4
+              );
+              setFilteresListOfRestaurant(filteredList)
+
+            }}
+          >Top Rated Resturants</button>
+        </div>
+
+        <div> 
+          <label>User: </label>
+          <input className="border border-solid border-black rounded-md bg-white px-3"
+          value={loggedInContext}
+          onChange={(e) => setuserName(e.target.value)}
+          />
+        </div>
+
       </div>
 
       <div className="res-container flex flex-wrap">
         {FilteredListOfRestaurants.map((restaurant) => (
 
           <Link
-          to = {"/restaurants/" + restaurant?.card?.card?.info?.id}
-          key={restaurant?.card?.card?.info?.id}
-          className="res-links"
-          
+            to={"/restaurants/" + restaurant?.card?.card?.info?.id}
+            key={restaurant?.card?.card?.info?.id}
+            className="res-links"
+
           >
-            
-          {
-            restaurant?.card?.card?.info?.promoted ? (
-              <RestaurantWithLabel 
-            resData={restaurant}
-              />
-            ) : (
-              <ResturantCard
-            resData={restaurant}
-          />
-            ) 
-          }
-           
+            {
+              restaurant?.card?.card?.info?.promoted ? (
+                <RestaurantWithLabel
+                  resData={restaurant}
+                />
+              ) : (
+                <ResturantCard
+                  resData={restaurant}
+                />
+              )
+            }
+
           </Link>
-         
+
         ))}
 
       </div>
