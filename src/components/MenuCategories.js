@@ -11,7 +11,7 @@ const MenuCategories = ({ data, showItems, setshowIndexx }) => {
     }
 
     return (
-        <div className="m-3 bg-gray-100 py-4 px-4 rounded-md shadow-2xl">
+        <div className="m-3 bg-white py-4 px-4 rounded-md shadow-2xl">
             <div className="  flex justify-between font-bold text-lg cursor-pointer" onClick={handleClick}>
                 <span>{data?.title}  ({data.itemCards.length})</span>
                 <span>⬇️</span>

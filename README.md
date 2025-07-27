@@ -82,3 +82,11 @@ test
 
 //  HIGHR ORDER COMPONENT
 //  input - restaurantcard => restaurantcardPromoted
+
+//  REDUX Toolkit 
+  -install @reduxjs/toolit and rect redux 
+  -Build our own store 
+  -connect our store to our app 
+  -slice(cartSlice)
+  -dispatch (action)
+  -selector(read)

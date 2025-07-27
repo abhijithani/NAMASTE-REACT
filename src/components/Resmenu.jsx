@@ -39,30 +39,31 @@ const Resmenu = () => {
 
 
   return (
-    <div className="resmenu-container m-15 mx-100">
-      <div className="resmenu-header m-7 bg-gray-100 p-8 rounded-xl shadow-xl">
-        <h1 className="font-semibold"> {name} </h1>
-        <h3 className="text-orange-500 font-semibold underline">{cuisines.join(" ,")} </h3>
-        <p>
-          <span>{avgRating} ⭐</span>
-          <span > ₹ {costForTwo / 100} for two</span>
-        </p>
-      </div>
+    <div className="justify-center  ">
+      <div className="resmenu-container m-15 mx-100">
+        <div className="resmenu-header m-7 bg-white p-8 rounded-xl shadow-xl">
+          <h1 className="font-semibold"> {name} </h1>
+          <h3 className="text-orange-500 font-semibold underline">{cuisines.join(" ,")} </h3>
+          <p>
+            <span>{avgRating} ⭐</span>
+            <span > ₹ {costForTwo / 100} for two</span>
+          </p>
+        </div>
 
 
-      <div className="dish-container m-10">
-        {Categories.map((category, index) => (
-          <MenuCategories
-            key={category?.card?.card?.categoryId}
-            data={category?.card?.card}
-            showItems={index == showIndex ? true : false}
-            setshowIndexx={() => setshowIndex((prev) => prev == index ? null : index) }
-          />
-        ))}
+        <div className="dish-container m-10">
+          {Categories?.map((category, index) => (
+            <MenuCategories
+              key={category?.card?.card?.categoryId}
+              data={category?.card?.card}
+              showItems={index == showIndex ? true : false}
+              setshowIndexx={() => setshowIndex((prev) => prev == index ? null : index)}
+            />
+          ))}
 
+        </div>
       </div>
     </div>
-
   )
 }
 

@@ -20,26 +20,26 @@ const Header = () => {
 
 
   return (
-    <div className="flex justify-between bg-gray-200  sm:bg-grey-200 shadow-xl" >
+    <div className="flex justify-between bg-orange-500  sm:bg-grey-200 shadow-xl" >
       <div className="logo-container m-2">
-        <img className="w-24 rounded-2xl"
+        <img className="w-20 rounded-3xl"
           src={LOGO_URL} />
       </div>
       <div className="nav-items flex items-center">
         <ul className="flex">
-          <li className="px-2 font-semibold">Online Status:{useronline ? "🟢" : "🔴"}</li>
-          <li className="px-2 font-semibold" ><Link to="/" >Home</Link></li>
-          <li className="px-2 font-semibold"> <Link to="/About" >About us </Link></li>
-          <li className="px-2 font-semibold"><Link to="/Contact"  >Contact us</Link> </li>
-          <li className="px-2 font-semibold"><Link to="/grocery" >Grocery</Link></li>
-          <li className="px-2 font-semibold">Cart</li>
+          <li className="px-2 font-semibold text-white">Online Status:{useronline ? "🟢" : "🔴"}</li>
+          <li className="px-2 font-semibold text-white" ><Link to="/" >Home</Link></li>
+          <li className="px-2 font-semibold text-white"> <Link to="/About" >About us </Link></li>
+          <li className="px-2 font-semibold text-white"><Link to="/Contact"  >Contact us</Link> </li>
+          <li className="px-2 font-semibold text-white"><Link to="/grocery" >Grocery</Link></li>
+          <li className="px-2 font-semibold text-white">Cart</li>
 
-          <button className="px-2 font-semibold"
+          <button className="px-2 font-semibold text-white"
             onClick={() => {
               logbutton == "Login" ? setlogbutton("Logout") : setlogbutton("Login");
             }}
           >{logbutton}</button>
-          <li className="px-2 font-semibold">{data.loggedInContext}</li>
+          <li className="px-2 font-semibold text-white">{data.loggedInContext}</li>
         </ul>
       </div>
     </div >
