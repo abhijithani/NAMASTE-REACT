@@ -1,0 +1,78 @@
+
+{
+    "id": "962106",
+    "name": "Rice Express By Shero",
+    "city": "13",
+    "slugs": {
+        "restaurant": "rice-express-by-shero-panampilly-nagar-panampilly-nagar",
+        "city": "kochi"
+    },
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/8/b0179755-9283-447f-8624-33ac4bb0267b_962106.jpg",
+    "address": "Shop No : HouseNo.56/1937 , Floor :  , House No.56/1937 2nd Floor, Vilwam House Club , ",
+    "locality": "Panampilly Nagar",
+    "areaName": "Panampilly Nagar",
+    "costForTwo": "30000",
+    "costForTwoMessage": "₹300 FOR TWO",
+    "cuisines": [
+        "South Indian",
+        "Healthy Food"
+    ],
+    "avgRating": 4.5,
+    "feeDetails": {},
+    "parentId": "536277",
+    "avgRatingString": "4.5",
+    "totalRatingsString": "53",
+    "promoted": true,
+    "adTrackingId": "cid=30949962~p=0~adgrpid=30949962#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=962106~plpr=SEARCH#RESTAURANT~st=kochi~eid=ae53a8e7-97c1-4ab3-9f29-5a96f583a388~srvts=1753956096928",
+    "sla": {
+        "deliveryTime": 55,
+        "minDeliveryTime": 50,
+        "maxDeliveryTime": 55,
+        "lastMileTravel": 5.5,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "RAIN_MODE_NONE",
+        "slaString": "50-55 MINS",
+        "lastMileTravelString": "5.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "opened": true,
+        "restaurantClosedMeta": {}
+    },
+    "aggregatedDiscountInfo": {
+        "visible": true
+    },
+    "badges": {
+        "imageBadges": [
+            {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+            }
+        ]
+    },
+    "aggregatedDiscountInfoV2": {
+        "visible": true
+    },
+    "ratingSlab": "RATING_SLAB_5",
+    "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {},
+        "commsStyling": {}
+    },
+    "cartOrderabilityNudgeBanner": {
+        "parameters": {},
+        "presentation": {}
+    },
+    "externalRatings": {
+        "aggregatedRating": {
+            "rating": "--"
+        }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    "featuredSectionInfo": {
+        "sectionTitle": "More"
+    },
+    "campaignId": "30949962"
+}

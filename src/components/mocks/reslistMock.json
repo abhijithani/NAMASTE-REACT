@@ -1,0 +1,1926 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "RESTAURANT": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "525646",
+                                                "name": "Shero Home Food - Kerala",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "shero-home-food---chettinad-kancheepuram-kancheepuram",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/3eaabf07-97e4-47fd-ad6a-0eda47ba6458_525646.jpg",
+                                                "address": " House No.56/1937 2nd Floor, Vilwam House Club Road, South Giri Nagar, Kadavanthra, Cochin - 682020",
+                                                "locality": " Thamarakulam Road",
+                                                "areaName": "Vyttila",
+                                                "costForTwo": "25000",
+                                                "costForTwoMessage": "₹250 FOR TWO",
+                                                "cuisines": [
+                                                    "Home Food",
+                                                    "Kerala",
+                                                    "South Indian",
+                                                    "healthy",
+                                                    "dessert",
+                                                    "Snacks",
+                                                    "North Indian"
+                                                ],
+                                                "avgRating": 4.4,
+                                                "feeDetails": {},
+                                                "parentId": "406799",
+                                                "avgRatingString": "4.4",
+                                                "totalRatingsString": "555",
+                                                "promoted": true,
+                                                "adTrackingId": "cid=30949125~p=0~adgrpid=30949125#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=525646~plpr=SEARCH#RESTAURANT~st=kochi~eid=9e2af8d6-215e-4bb7-9138-9f95413af08e~srvts=1753964835707",
+                                                "sla": {
+                                                    "deliveryTime": 65,
+                                                    "minDeliveryTime": 65,
+                                                    "maxDeliveryTime": 70,
+                                                    "lastMileTravel": 5.5,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "65-70 MINS",
+                                                    "lastMileTravelString": "5.5 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {
+                                                    "imageBadges": [
+                                                        {
+                                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                            "description": "pureveg"
+                                                        }
+                                                    ]
+                                                },
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                },
+                                                "campaignId": "30949125"
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\",\"adTrackingId\":\"cid=30949125~p=0~adgrpid=30949125#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=525646~plpr=SEARCH#RESTAURANT~st=kochi~eid=9e2af8d6-215e-4bb7-9138-9f95413af08e~srvts=1753964835707\"}",
+                                                "objectValue": "525646",
+                                                "impressionObjectName": "impression-restaurant-ad",
+                                                "clickObjectName": "click-restaurant-ad"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "525646",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "373379",
+                                                "name": "Nellikka Restaurant",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "nellikka-restaurant-panampilly-nagar-panampilly-nagar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "ata0nhg2x8qzg7p00pfl",
+                                                "address": "56/1621 A 2,PATTATHIL BUILDING GROUND FLOOR ,KADAVANTHRA,682020",
+                                                "locality": "Panampilly Nagar",
+                                                "areaName": "Vyttila",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Indian"
+                                                ],
+                                                "avgRating": 4.8,
+                                                "feeDetails": {},
+                                                "parentId": "145509",
+                                                "avgRatingString": "4.8",
+                                                "totalRatingsString": "12K+",
+                                                "sla": {
+                                                    "deliveryTime": 35,
+                                                    "minDeliveryTime": 35,
+                                                    "maxDeliveryTime": 40,
+                                                    "lastMileTravel": 6.2,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "35-40 MINS",
+                                                    "lastMileTravelString": "6.2 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "373379",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "373379"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "369605",
+                                                "name": "Shero Home Food",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "shero-home---roti-dall-&-sabji-adyar-adyar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/12/c5ed31e2-53e2-43ee-8180-f3164139ea31_369605.jpg",
+                                                "address": "House No.56/1937 2nd Floor, Vilwam House Club Road, South Giri Nagar, Kadavanthra, Cochin-682020, Thrikkakara Circle, Ernakulam, Kerala-682020",
+                                                "locality": "Kadavanthra",
+                                                "areaName": "South Giri Nagar",
+                                                "costForTwo": "35000",
+                                                "costForTwoMessage": "₹350 FOR TWO",
+                                                "cuisines": [
+                                                    "Home Food",
+                                                    "North Indian",
+                                                    "South Indian",
+                                                    "healthy",
+                                                    "Desserts",
+                                                    "Snacks",
+                                                    "Thali"
+                                                ],
+                                                "avgRating": 4.4,
+                                                "feeDetails": {},
+                                                "parentId": "344012",
+                                                "avgRatingString": "4.4",
+                                                "totalRatingsString": "235",
+                                                "promoted": true,
+                                                "adTrackingId": "cid=31353306~p=1~adgrpid=31353306#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=369605~plpr=SEARCH#RESTAURANT~st=kochi~eid=3a69f231-9be4-48df-a54a-e6efc15a6d54~srvts=1753964835707",
+                                                "sla": {
+                                                    "deliveryTime": 61,
+                                                    "minDeliveryTime": 60,
+                                                    "maxDeliveryTime": 65,
+                                                    "lastMileTravel": 5.5,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "60-65 MINS",
+                                                    "lastMileTravelString": "5.5 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "₹125 OFF",
+                                                    "subHeader": "ABOVE ₹349",
+                                                    "discountTag": "FLAT DEAL",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                },
+                                                "campaignId": "31353306"
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\",\"adTrackingId\":\"cid=31353306~p=1~adgrpid=31353306#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=369605~plpr=SEARCH#RESTAURANT~st=kochi~eid=3a69f231-9be4-48df-a54a-e6efc15a6d54~srvts=1753964835707\"}",
+                                                "objectValue": "369605",
+                                                "impressionObjectName": "impression-restaurant-ad",
+                                                "clickObjectName": "click-restaurant-ad"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "369605",
+                                                    "query": "kochi"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "1022770",
+                                                "name": "KALAVARA",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "kalavara-fort-kochi-fort-kochi",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/8/990c2b3d-e2cf-4199-bd64-5a823f960ff8_1022770.jpg",
+                                                "address": " KALAVARA, MALIYAKKAL HOUSE, THORUPARAMBU, NAZERTH, MATTENCHERRY, P. O, ERNAKULAM, Eranakulam Circle, Ernakulam, Kerala-682002",
+                                                "locality": "MATTENCHERRY",
+                                                "areaName": "NAZERTH",
+                                                "costForTwo": "25000",
+                                                "costForTwoMessage": "₹250 FOR TWO",
+                                                "cuisines": [
+                                                    "Biryani",
+                                                    "Kerala",
+                                                    "South Indian",
+                                                    "Juices"
+                                                ],
+                                                "avgRating": 4.6,
+                                                "feeDetails": {},
+                                                "parentId": "113890",
+                                                "avgRatingString": "4.6",
+                                                "totalRatingsString": "195",
+                                                "sla": {
+                                                    "deliveryTime": 19,
+                                                    "minDeliveryTime": 15,
+                                                    "maxDeliveryTime": 20,
+                                                    "lastMileTravel": 3,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "15-20 MINS",
+                                                    "lastMileTravelString": "3.0 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "ITEMS",
+                                                    "subHeader": "AT ₹49",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    },
+                                                    "footerText": "5 DEALS LEFT",
+                                                    "secondaryHeaderType": "SECONDARY_HEADER_TYPE_USAGE_LIMIT_OFFER"
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "1022770",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "restaurant_id": "1022770",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "962010",
+                                                "name": "Shero Home Food - Chettinad",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "shero-home-food---chettinad-panampilly-nagar-panampilly-nagar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/01a26a2d-3300-41b7-8d4b-6d149a221fbc_962010.jpg",
+                                                "address": "Shop No : HouseNo.56/1937 , Floor :  , House No.56/1937 2nd Floor, Vilwam House Club , ",
+                                                "locality": "Panampilly Nagar",
+                                                "areaName": "Panampilly Nagar",
+                                                "costForTwo": "30000",
+                                                "costForTwoMessage": "₹300 FOR TWO",
+                                                "cuisines": [
+                                                    "Home Food",
+                                                    "Chettinad",
+                                                    "South Indian",
+                                                    "healthy",
+                                                    "dessert",
+                                                    "Snacks",
+                                                    "North Indian"
+                                                ],
+                                                "avgRating": 4.5,
+                                                "feeDetails": {},
+                                                "parentId": "298931",
+                                                "avgRatingString": "4.5",
+                                                "totalRatingsString": "28",
+                                                "promoted": true,
+                                                "adTrackingId": "cid=30949937~p=2~adgrpid=30949937#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=962010~plpr=SEARCH#RESTAURANT~st=kochi~eid=affe0cb7-b6a5-42bd-a29c-27b41e36bc6f~srvts=1753964835707",
+                                                "sla": {
+                                                    "deliveryTime": 47,
+                                                    "minDeliveryTime": 45,
+                                                    "maxDeliveryTime": 50,
+                                                    "lastMileTravel": 5.5,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "45-50 MINS",
+                                                    "lastMileTravelString": "5.5 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                },
+                                                "campaignId": "30949937"
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\",\"adTrackingId\":\"cid=30949937~p=2~adgrpid=30949937#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=962010~plpr=SEARCH#RESTAURANT~st=kochi~eid=affe0cb7-b6a5-42bd-a29c-27b41e36bc6f~srvts=1753964835707\"}",
+                                                "objectValue": "962010",
+                                                "impressionObjectName": "impression-restaurant-ad",
+                                                "clickObjectName": "click-restaurant-ad"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "962010",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "753758",
+                                                "name": "Thirumenis Payasam",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "thirumeni's-payasam-panampilly-nagar-panampilly-nagar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/19/39279fc9-6430-4a9f-aeb5-6bae6e283d36_753758.jpg",
+                                                "address": "ERNAKULATHAPPAN GROUND,OPP BTH,DH ROAD , Eranakulam Circle, Ernakulam, Kerala - 682018",
+                                                "locality": "D H road",
+                                                "areaName": "Vyttila",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Desserts"
+                                                ],
+                                                "avgRating": 4.6,
+                                                "feeDetails": {},
+                                                "parentId": "215838",
+                                                "avgRatingString": "4.6",
+                                                "totalRatingsString": "600",
+                                                "sla": {
+                                                    "deliveryTime": 36,
+                                                    "minDeliveryTime": 35,
+                                                    "maxDeliveryTime": 40,
+                                                    "lastMileTravel": 6.3,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "35-40 MINS",
+                                                    "lastMileTravelString": "6.3 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "ITEMS",
+                                                    "subHeader": "AT ₹139",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "753758",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "restaurant_id": "753758",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "968471",
+                                                "name": "United Coconut By Chef Pillai Kochi",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "united-coconut-by-chef-pillai-kochi-kaloor-kaloor",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/7/56507ddb-992f-4db0-a598-5f14c0096066_968471.jpg",
+                                                "address": "\"UNITED COCONUT BY CHEF PILLAI KOCHI\", KMC: 66/6284 (F8 A, F8 B & F8 C), CENTRE SQUARE MALL, RAJAJI JUNCTION, MG ROAD, ERNAKULAM , Eranakulam Circle, Ernakulam, Kerala-682016",
+                                                "locality": "Centre Square Mall",
+                                                "areaName": "Rajaji Junction",
+                                                "costForTwo": "29900",
+                                                "costForTwoMessage": "₹299 FOR TWO",
+                                                "cuisines": [
+                                                    "North Indian",
+                                                    "South Indian",
+                                                    "Tandoor",
+                                                    "Chinese"
+                                                ],
+                                                "avgRating": 4.4,
+                                                "feeDetails": {},
+                                                "parentId": "567411",
+                                                "avgRatingString": "4.4",
+                                                "totalRatingsString": "740",
+                                                "sla": {
+                                                    "deliveryTime": 58,
+                                                    "minDeliveryTime": 55,
+                                                    "maxDeliveryTime": 60,
+                                                    "lastMileTravel": 7.5,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "55-60 MINS",
+                                                    "lastMileTravelString": "7.5 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "968471",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "restaurant_id": "968471",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "420705",
+                                                "name": "Thrikkai Homely Foods",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "thrikkai-homely-foods-panampilly-nagar-panampilly-nagar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "qwykp2afl3jppkaao3dz",
+                                                "address": "28/39 KIZHAKKEMUNDIYIL (KRISHNA NIVAS ) NETTOOR P O , Thripunnithura Circle, Ernakulam, Kerala - 682040",
+                                                "locality": "Nettoor Maradu",
+                                                "areaName": "Vyttila",
+                                                "costForTwo": "35000",
+                                                "costForTwoMessage": "₹350 FOR TWO",
+                                                "cuisines": [
+                                                    "South Indian"
+                                                ],
+                                                "avgRating": 4.7,
+                                                "feeDetails": {},
+                                                "parentId": "233970",
+                                                "avgRatingString": "4.7",
+                                                "totalRatingsString": "247",
+                                                "sla": {
+                                                    "deliveryTime": 69,
+                                                    "minDeliveryTime": 65,
+                                                    "maxDeliveryTime": 70,
+                                                    "lastMileTravel": 8.3,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "65-70 MINS",
+                                                    "lastMileTravelString": "8.3 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {
+                                                    "imageBadges": [
+                                                        {
+                                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                            "description": "pureveg"
+                                                        }
+                                                    ]
+                                                },
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "₹40 OFF",
+                                                    "subHeader": "ABOVE ₹499",
+                                                    "discountTag": "FLAT DEAL",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "420705",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "restaurant_id": "420705",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "816549",
+                                                "name": "Boom! Burgers",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "fruit-cult-panampilly-nagar-panampilly-nagar-2",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/8cec3cfe-8776-40b5-8f79-6eb9fcafddb4_816549.jpg",
+                                                "address": "FRUIT CULT DOOR NO 62/569-A ARCHANA INN  WARRIAM ROAD NEAR LOTUS CLUB  ERNAKULAM, Eranakulam Circle, Ernakulam,  Kerala-682016",
+                                                "locality": "Panampilly Nagar",
+                                                "areaName": "Vyttila",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Burgers"
+                                                ],
+                                                "avgRating": 4.6,
+                                                "feeDetails": {},
+                                                "parentId": "597912",
+                                                "avgRatingString": "4.6",
+                                                "totalRatingsString": "99",
+                                                "sla": {
+                                                    "deliveryTime": 49,
+                                                    "minDeliveryTime": 45,
+                                                    "maxDeliveryTime": 50,
+                                                    "lastMileTravel": 6.2,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "45-50 MINS",
+                                                    "lastMileTravelString": "6.2 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "30% OFF",
+                                                    "subHeader": "UPTO ₹75",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "816549",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "816549",
+                                                    "query": "kochi"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "563003",
+                                                "name": "Healthy Diet, Kadavanthra",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "healthy-diet,-kadavanthra-kakkanad-kakkanad",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "pm6roqbjjt3m83syr51e",
+                                                "address": "HEALTHY DIET REGIONAL SPORTS CENTRE KADAVANTHARA,THRIKKAKARA CIRCLE,ERNAKULAM,KERALA-682020",
+                                                "locality": "Thrikkakara Circle",
+                                                "areaName": "Panampilly Nagar",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Salads",
+                                                    "Healthy Food",
+                                                    "Beverages"
+                                                ],
+                                                "avgRating": 4.6,
+                                                "feeDetails": {},
+                                                "parentId": "338736",
+                                                "avgRatingString": "4.6",
+                                                "totalRatingsString": "385",
+                                                "sla": {
+                                                    "deliveryTime": 52,
+                                                    "minDeliveryTime": 50,
+                                                    "maxDeliveryTime": 55,
+                                                    "lastMileTravel": 6.4,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "50-55 MINS",
+                                                    "lastMileTravelString": "6.4 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "563003",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "restaurant_id": "563003",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "369099",
+                                                "name": "Spice It - ibis Kochi City Centre",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "spice-it---ibis-kochi-city-centre-kaloor-kaloor",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "othpn9nkbydfriw4mfds",
+                                                "address": "GENERAL MANAGER - INTERGLOBE HOTELS PRIVATE LIMITED,66/5453-A,Padma Junction,M.G. Road,Ernakulam ,Eranakulam Circle,Ernakulam,Kerala-682035",
+                                                "locality": "GENERAL MANAGER - INTERGLOBE HOTELS PRIVATE LIMITED",
+                                                "areaName": "Padma Junction",
+                                                "costForTwo": "60000",
+                                                "costForTwoMessage": "₹600 FOR TWO",
+                                                "cuisines": [
+                                                    "Indian",
+                                                    "Chinese",
+                                                    "Biryani",
+                                                    "Snacks"
+                                                ],
+                                                "avgRating": 4.8,
+                                                "feeDetails": {},
+                                                "parentId": "192113",
+                                                "avgRatingString": "4.8",
+                                                "totalRatingsString": "48",
+                                                "sla": {
+                                                    "deliveryTime": 59,
+                                                    "minDeliveryTime": 55,
+                                                    "maxDeliveryTime": 60,
+                                                    "lastMileTravel": 7.5,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "55-60 MINS",
+                                                    "lastMileTravelString": "7.5 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {
+                                                    "imageBadges": [
+                                                        {
+                                                            "imageId": "newg.png",
+                                                            "description": "Gourmet"
+                                                        }
+                                                    ]
+                                                },
+                                                "sld": true,
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "20% OFF",
+                                                    "subHeader": "UPTO ₹50",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "4.5",
+                                                        "ratingCount": "6.9K+"
+                                                    },
+                                                    "source": "GOOGLE",
+                                                    "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "369099",
+                                                "impressionObjectName": "impression-restaurant-sld",
+                                                "clickObjectName": "click-restaurant-sld"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "source": "SEARCH",
+                                                    "isSld": "true",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "369099",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "833461",
+                                                "name": "Puttu Kada in Thykoodam",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "kanji-kada-in-thykoodam-panampilly-nagar-panampilly-nagar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "c362d9f9547d22be3aa521ca428a1894",
+                                                "address": "Shop No : 3559 , Floor : . , Koikkaram parambil house , St.yacobsleehah Road Thykoodam, Vyttila, Ernakulam, Kochi, Kerala, India 682019",
+                                                "locality": "Vyttila",
+                                                "areaName": "Vyttila",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Kerala"
+                                                ],
+                                                "avgRating": 4.4,
+                                                "feeDetails": {},
+                                                "parentId": "617483",
+                                                "avgRatingString": "4.4",
+                                                "totalRatingsString": "90",
+                                                "sla": {
+                                                    "deliveryTime": 44,
+                                                    "minDeliveryTime": 40,
+                                                    "maxDeliveryTime": 45,
+                                                    "lastMileTravel": 9.8,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "40-45 MINS",
+                                                    "lastMileTravelString": "9.8 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "₹40 OFF",
+                                                    "subHeader": "ABOVE ₹399",
+                                                    "discountTag": "FLAT DEAL",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "833461",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "833461",
+                                                    "query": "kochi"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "912752",
+                                                "name": "Kochi Idly",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "kochi-idly-fort-kochi-fort-kochi",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/21/64f8f388-5ebe-4d09-936c-7137956e9d0f_912752.jpg",
+                                                "address": "Shop No : 11/2519A3 , Floor : 0 , PANACKAL BUILDING,M.N THACHO ROAD,THOPPUMPADY , ",
+                                                "locality": "Thoppumpady",
+                                                "areaName": "Fort Kochi",
+                                                "costForTwo": "25000",
+                                                "costForTwoMessage": "₹250 FOR TWO",
+                                                "cuisines": [
+                                                    "Kerala",
+                                                    "South Indian"
+                                                ],
+                                                "feeDetails": {},
+                                                "parentId": "530058",
+                                                "avgRatingString": "--",
+                                                "sla": {
+                                                    "deliveryTime": 25,
+                                                    "minDeliveryTime": 20,
+                                                    "maxDeliveryTime": 25,
+                                                    "lastMileTravel": 1.9,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "20-25 MINS",
+                                                    "lastMileTravelString": "1.9 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "30% OFF",
+                                                    "subHeader": "UPTO ₹75",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "912752",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "912752"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "939873",
+                                                "name": "Kochi Chowpatty",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "kochi-chowpatty-edapally-edapally",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/12/5d2c05d6-0e30-48df-ac43-713e793a9663_939873.jpg",
+                                                "address": "37/2035 GROUND FLOOR NEAR EDAPPALLY POST OFFICE, Thrikkakara Circle, Ernakulam, Kerala - 682024",
+                                                "locality": "NEAR EDAPPALLY POST OFFICE",
+                                                "areaName": "Thrikkakara Circle",
+                                                "costForTwo": "30000",
+                                                "costForTwoMessage": "₹300 FOR TWO",
+                                                "cuisines": [
+                                                    "Fast Food",
+                                                    "Cafe",
+                                                    "North Indian",
+                                                    "Chinese",
+                                                    "Street Food"
+                                                ],
+                                                "avgRating": 4.3,
+                                                "feeDetails": {},
+                                                "parentId": "545345",
+                                                "avgRatingString": "4.3",
+                                                "totalRatingsString": "17",
+                                                "sla": {
+                                                    "deliveryTime": 60,
+                                                    "minDeliveryTime": 60,
+                                                    "maxDeliveryTime": 65,
+                                                    "lastMileTravel": 13.3,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "60-65 MINS",
+                                                    "lastMileTravelString": "13.3 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "sld": true,
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "10% OFF",
+                                                    "subHeader": "UPTO ₹40",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "939873",
+                                                "impressionObjectName": "impression-restaurant-sld",
+                                                "clickObjectName": "click-restaurant-sld"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "restaurant_id": "939873",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "true",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "277800",
+                                                "name": "Grand Hyatt Kochi",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "hyatt-kaloor-kaloor",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "gpdyjpjqryyasu1026kb",
+                                                "address": "Hyatt, Bolgatty Island, Kochi",
+                                                "locality": "Vypin",
+                                                "areaName": "Vypin",
+                                                "costForTwo": "100000",
+                                                "costForTwoMessage": "₹1000 FOR TWO",
+                                                "cuisines": [
+                                                    "Kerala",
+                                                    "Indian",
+                                                    "Continental",
+                                                    "Asian"
+                                                ],
+                                                "avgRating": 4.6,
+                                                "feeDetails": {},
+                                                "parentId": "20294",
+                                                "avgRatingString": "4.6",
+                                                "totalRatingsString": "137",
+                                                "sla": {
+                                                    "deliveryTime": 71,
+                                                    "minDeliveryTime": 70,
+                                                    "maxDeliveryTime": 75,
+                                                    "lastMileTravel": 10.8,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "70-75 MINS",
+                                                    "lastMileTravelString": "10.8 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "sld": true,
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "40% OFF",
+                                                    "subHeader": "UPTO ₹80",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "4.4",
+                                                        "ratingCount": "677"
+                                                    },
+                                                    "source": "GOOGLE",
+                                                    "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "277800",
+                                                "impressionObjectName": "impression-restaurant-sld",
+                                                "clickObjectName": "click-restaurant-sld"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "true",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "277800",
+                                                    "query": "kochi"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "650525",
+                                                "name": "Kochin Cafe",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "kochin-cafe-kaloor-kaloor",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "2487ba7cf7b96f76add069878cb7f48f",
+                                                "address": "The PGS Vedanta, Lissie junction, Ernakulam North, Kochi, Kerala 682018",
+                                                "locality": "Ernakulam North",
+                                                "areaName": "Kaloor",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Indian",
+                                                    "Chinese",
+                                                    "Italian-American",
+                                                    "Fast Food",
+                                                    "Snacks"
+                                                ],
+                                                "avgRating": 4.7,
+                                                "feeDetails": {},
+                                                "parentId": "391615",
+                                                "avgRatingString": "4.7",
+                                                "totalRatingsString": "13",
+                                                "sla": {
+                                                    "deliveryTime": 59,
+                                                    "minDeliveryTime": 55,
+                                                    "maxDeliveryTime": 60,
+                                                    "lastMileTravel": 9,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "55-60 MINS",
+                                                    "lastMileTravelString": "9.0 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "sld": true,
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "10% OFF",
+                                                    "subHeader": "UPTO ₹40",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "650525",
+                                                "impressionObjectName": "impression-restaurant-sld",
+                                                "clickObjectName": "click-restaurant-sld"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "true",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "650525",
+                                                    "query": "kochi"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "944258",
+                                                "name": "Ebbins Restaurant Kochi",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "ebbins-restaurant-kochi-panampilly-nagar-panampilly-nagar",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/20/76962a8d-a739-4ac6-aa99-a3a4469a2f5f_944258.JPG",
+                                                "address": "Shop No : 54/3043 , Floor :  , SRIVAHINI, TEMPLE ROAD , ",
+                                                "locality": "SRIVAHINI",
+                                                "areaName": "Panampilly Nagar",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "South Indian"
+                                                ],
+                                                "avgRating": 3.6,
+                                                "feeDetails": {},
+                                                "parentId": "553242",
+                                                "avgRatingString": "3.6",
+                                                "totalRatingsString": "31",
+                                                "sla": {
+                                                    "deliveryTime": 42,
+                                                    "minDeliveryTime": 40,
+                                                    "maxDeliveryTime": 45,
+                                                    "lastMileTravel": 6.7,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "40-45 MINS",
+                                                    "lastMileTravelString": "6.7 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "opened": true,
+                                                    "restaurantClosedMeta": {}
+                                                },
+                                                "badges": {},
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "10% OFF",
+                                                    "subHeader": "UPTO ₹40",
+                                                    "logoCtx": {
+                                                        "text": "BENEFITS"
+                                                    }
+                                                },
+                                                "ratingSlab": "RATING_SLAB_4",
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {},
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "944258",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH",
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "944258",
+                                                    "query": "kochi"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "615534",
+                                                "name": "Tea Time Kochi",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "tea-time-kochi-palarivattom-palarivattom",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "kh2e6xetj8fcxwqdbmr0",
+                                                "address": "41/2065 TEA TIME KOCHI , CIVIL LINE  ROAD PALARIVATTOM, Thrikkakara Circle,  Ernakulam, Kerala - 682028",
+                                                "locality": "Civil Line Road",
+                                                "areaName": "Palarivattom",
+                                                "costForTwo": "20000",
+                                                "costForTwoMessage": "₹200 FOR TWO",
+                                                "cuisines": [
+                                                    "Beverages",
+                                                    "Juices",
+                                                    "Snacks",
+                                                    "Chinese",
+                                                    "Fast Food"
+                                                ],
+                                                "avgRating": 4.4,
+                                                "feeDetails": {},
+                                                "parentId": "367673",
+                                                "avgRatingString": "4.4",
+                                                "totalRatingsString": "2.0K+",
+                                                "sla": {
+                                                    "deliveryTime": 62,
+                                                    "minDeliveryTime": 60,
+                                                    "maxDeliveryTime": 65,
+                                                    "lastMileTravel": 14,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "60-65 MINS",
+                                                    "lastMileTravelString": "14.0 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "restaurantClosedMeta": {
+                                                        "title": "CLOSED",
+                                                        "subtitle": "TEMPORARILY"
+                                                    }
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {},
+                                                "sld": true,
+                                                "unorderableMessage": "Temporarily closed for delivery",
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_5",
+                                                "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                                                "orderabilityCommunication": {
+                                                    "title": {
+                                                        "text": "CURRENTLY"
+                                                    },
+                                                    "subTitle": {
+                                                        "text": "CLOSED"
+                                                    },
+                                                    "message": {
+                                                        "text": "Outlet not accepting orders at the moment",
+                                                        "textColour": "primary"
+                                                    },
+                                                    "customIcon": {
+                                                        "bgGradientColorStart": "#EB8322",
+                                                        "bgGradientColorEnd": "#EE5803"
+                                                    },
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "--"
+                                                    }
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "615534",
+                                                "impressionObjectName": "impression-restaurant-sld",
+                                                "clickObjectName": "click-restaurant-sld"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "source": "SEARCH",
+                                                    "isSld": "true",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "615534",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                            "info": {
+                                                "id": "709661",
+                                                "name": "Kochi Kapital Kafe",
+                                                "city": "13",
+                                                "slugs": {
+                                                    "restaurant": "kochi-kapital-kafe-fort-kochi-fort-kochi",
+                                                    "city": "kochi"
+                                                },
+                                                "cloudinaryImageId": "5b17fc2fe703cfaa5478f2994fdf2e1d",
+                                                "address": "883A/PETER CELLY ROAD/PRINCESS STREET,  Kochi Circle, Ernakulam, Kerala-682001",
+                                                "locality": "Princess Street",
+                                                "areaName": "Fort Kochi",
+                                                "costForTwo": "30000",
+                                                "costForTwoMessage": "₹300 FOR TWO",
+                                                "cuisines": [
+                                                    "Beverages",
+                                                    "Fast Food",
+                                                    "Burgers",
+                                                    "Snacks",
+                                                    "Salads"
+                                                ],
+                                                "avgRating": 4,
+                                                "feeDetails": {},
+                                                "parentId": "421227",
+                                                "avgRatingString": "4.0",
+                                                "totalRatingsString": "9",
+                                                "sla": {
+                                                    "deliveryTime": 41,
+                                                    "minDeliveryTime": 40,
+                                                    "maxDeliveryTime": 45,
+                                                    "lastMileTravel": 6.5,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "rainMode": "RAIN_MODE_NONE",
+                                                    "slaString": "40-45 MINS",
+                                                    "lastMileTravelString": "6.5 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextOpenTimeMessage": "Opens next at 8:30 am, tomorrow",
+                                                    "restaurantClosedMeta": {
+                                                        "title": "CLOSED",
+                                                        "subtitle": "FOR TODAY"
+                                                    }
+                                                },
+                                                "aggregatedDiscountInfo": {
+                                                    "visible": true
+                                                },
+                                                "badges": {},
+                                                "unorderableMessage": "Opens next at 8:30 am, tomorrow",
+                                                "aggregatedDiscountInfoV2": {
+                                                    "visible": true
+                                                },
+                                                "ratingSlab": "RATING_SLAB_4",
+                                                "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 8:30 am, tomorrow",
+                                                "orderabilityCommunication": {
+                                                    "title": {
+                                                        "text": "CURRENTLY"
+                                                    },
+                                                    "subTitle": {
+                                                        "text": "CLOSED"
+                                                    },
+                                                    "message": {
+                                                        "text": "Opens tomorrow at 8:30 AM",
+                                                        "textColour": "primary"
+                                                    },
+                                                    "customIcon": {
+                                                        "bgGradientColorStart": "#EB8322",
+                                                        "bgGradientColorEnd": "#EE5803"
+                                                    },
+                                                    "commsStyling": {}
+                                                },
+                                                "cartOrderabilityNudgeBanner": {
+                                                    "parameters": {},
+                                                    "presentation": {}
+                                                },
+                                                "externalRatings": {
+                                                    "aggregatedRating": {
+                                                        "rating": "4.8",
+                                                        "ratingCount": "661"
+                                                    },
+                                                    "source": "GOOGLE",
+                                                    "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                                },
+                                                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                                                "featuredSectionInfo": {
+                                                    "sectionTitle": "More"
+                                                }
+                                            },
+                                            "analytics": {
+                                                "screenName": "explore",
+                                                "context": "{\"tid\":\"undefined\",\"grid\":\"b30b3c59-01b7-4872-b009-fb77ce07aa93\",\"queryUniqueId\":\"1cc348be-b2a2-27ae-bb1f-26cc7bb59e34\",\"query\":\"kochi\"}",
+                                                "objectValue": "709661",
+                                                "impressionObjectName": "impression-restaurant",
+                                                "clickObjectName": "click-restaurant"
+                                            },
+                                            "ctaWithParams": {
+                                                "link": "swiggy://menu",
+                                                "type": "DEEPLINK",
+                                                "params": {
+                                                    "isSld": "false",
+                                                    "sourceRequestId": "688b6123462e55cba0798c42293ff84b",
+                                                    "qrEnabled": "false",
+                                                    "restaurant_id": "709661",
+                                                    "query": "kochi",
+                                                    "sourceSessionId": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+                                                    "source": "SEARCH"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true
+    },
+    "tid": "3667f67a-bc0e-4b47-a3cd-25f6dece4c8f",
+    "sid": "m152684e-2f2a-4b73-a18c-d9a0e27dce55",
+    "deviceId": "5bf64bba-f390-2db6-87c1-68c0468a40ab",
+    "csrfToken": "TGJBncX1Q8PT-Hwg84CHkaM_UzfTUWxLJDmXBvEc"
+}

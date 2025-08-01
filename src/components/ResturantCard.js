@@ -2,7 +2,8 @@ import { IMG_CDN_URL } from "../utlis/constants";
 
 const ResturantCard = ({ resData }) => {
   const info = resData?.card?.card?.info;
-
+  console.log(resData);
+  
   if (!info) return null;
 
   const {

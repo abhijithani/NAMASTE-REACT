@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { LOGO_URL } from "../utlis/constants"
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import useOnlineStatus from "../utlis/useOnlineStatus";
 import Usercontext from "../utlis/Usercontext";
 import { useSelector } from "react-redux";
@@ -19,7 +19,7 @@ const Header = () => {
   // console.log(data);
 
   const cartItems = useSelector((store) => store.cart.items) 
-  console.log(cartItems);
+  // console.log(cartItems);
   
 
   return (
